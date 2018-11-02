@@ -76,5 +76,6 @@ public class CientController {
         client.exchange(mqServerUrl, HttpMethod.POST, requestEntity, String.class);
 
         //该接口会一直处于监听中，不会返回数据
+        System.out.println("正在生产消息");
     }
 }
