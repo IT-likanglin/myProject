@@ -77,6 +77,7 @@ public class CreatemqProducer {
         HttpEntity<MultiValueMap<String, String>> requestEntity = new HttpEntity<MultiValueMap<String, String>>(params, headers);
 
         System.out.println("消费者正在消费");
+        System.out.println("生产者正在生产");
 
         try {
             //  执行HTTP请求，提交创建生产者申请
